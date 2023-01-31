@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <div class="calculator">
+      <input type="text" id="display" disabled />
+      <br>
+      <div class="btns">
+        <button class="num" onclick="display('7')">7</button>
+        <button class="num" onclick="display('8')">8</button>
+        <button class="num" onclick="display('9')">9</button>
+        <button class="op" onclick="display('+')">+</button>
+        <br>
+        <button class="num" onclick="display('4')">4</button>
+        <button class="num" onclick="display('5')">5</button>
+        <button class="num" onclick="display('6')">6</button>
+        <button class="op" onclick="display('-')">-</button>
+        <br>
+        <button class="num" onclick="display('1')">1</button>
+        <button class="num" onclick="display('2')">2</button>
+        <button class="num" onclick="display('3')">3</button>
+        <button class="op" onclick="display('*')">x</button>
+        <br>
+        <button class="clear" onclick="clearDisplay()">C</button>
+        <button class="num" onclick="display('0')">0</button>
+        <button class="equals" onclick="calculate()">=</button>
+        <button class="op" onclick="display('/')">&#247;</button>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
